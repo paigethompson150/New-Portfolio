@@ -1,12 +1,15 @@
-
+import { Link } from "react-router-dom";
+import '../styles/intro.css';
 
 const Intro = () => {
   return(
-    <nav className="intro-btn">
-      <a href="./Home.jsx">
-       <button>Press Me</button>
-      </a>
-    </nav>
+    <section className="intro-section buttons">
+      <Link to="Home">
+        <button className="blob-btn">
+          Press Me
+        </button> 
+       </Link>
+    </section>
   )
 }
 

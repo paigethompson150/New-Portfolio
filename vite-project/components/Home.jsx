@@ -1,13 +1,11 @@
-
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
-      <main>
-        <div>
-          <h1>Home Page</h1>
-        </div>
-      </main>     
+      <section className="section">
+        <h1>Home</h1>
+      </section>
     </div>
   )
 }
