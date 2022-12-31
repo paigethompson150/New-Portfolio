@@ -10,9 +10,9 @@ const Intro = () => {
   return(
     <div className="container">
       <div className="button-container">
-        <span className="mask">HOVER</span>
+        <span className="mask">Enter</span>
         <Link to="Home">
-          <button onClick={start} type="button" name="Hover">HOVER</button>
+          <button onClick={start} type="button" name="Hover">Enter</button>
         </Link>
       </div>
     </div>   
