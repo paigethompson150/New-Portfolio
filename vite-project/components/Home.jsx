@@ -6,6 +6,11 @@ const Home = () => {
     <div>
       <section className="home-section">
         <h1>Home</h1>
+        <Link to="Contact">
+          <h1>
+            Contact
+          </h1>
+        </Link>
       </section>
     </div>
   )
