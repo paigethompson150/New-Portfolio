@@ -1,4 +1,6 @@
 .home-section {
-  background-color: blue;
+  background-color: lightblue;
   color: white;
+  display: flex;
+  text-align: center;
 }/*# sourceMappingURL=home.css.map */

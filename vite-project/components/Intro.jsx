@@ -11,7 +11,7 @@ const Intro = () => {
     <div className="container">
       <div className="button-container">
         <span className="mask">Enter</span>
-        <Link to="Home">
+        <Link to="About">
           <button onClick={start} type="button" name="Hover">Enter</button>
         </Link>
       </div>

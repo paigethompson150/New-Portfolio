@@ -8,11 +8,12 @@ import {
 import Sound from 'react-sound';
 
 import Intro from './Intro';
-import Home from './Home';
+import About from './About';
 import Contact from './Contact';
 import Error from './Error';
 import GhostRide from '../music/Crumb - Ghostride.mp3';
 import {Howl, Howler} from 'howler';
+import Projects from './Projects';
 
 const music = [
   {sound: GhostRide, label: 'GhostRide'}
@@ -26,10 +27,11 @@ class App extends Component {
       <div>
         <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Intro />} />
-          <Route path="Home" element={<Home />} />
-          <Route path="Contact" element={<Contact />} />
-          <Route path="*" element={<Error/>} />
+          <Route exact path="/" element={<Intro />} />
+          <Route exact path="About" element={<About />} />
+          <Route exact path="Projects" element={<Projects />} />
+          <Route exact path="Contact" element={<Contact />} />
+          <Route exact path="*" element={<Error/>} />
         </Routes>
         </BrowserRouter> 
        
